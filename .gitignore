@@ -2,4 +2,15 @@
 .playwright-cli/
 .code-review-graph/
 node_modules/
+.next/
+out/
 *.log
+
+# Local env / secrets
+.env
+.env.local
+.env.*.local
+
+# Local Docker volumes (galeria-qr)
+**/.minio-data/
+**/.pg-data/
