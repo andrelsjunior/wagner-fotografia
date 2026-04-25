@@ -1,0 +1,5 @@
+.DS_Store
+.playwright-cli/
+.code-review-graph/
+node_modules/
+*.log
